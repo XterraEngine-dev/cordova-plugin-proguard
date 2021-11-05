@@ -126,7 +126,7 @@
 
 -repackageclasses '' 
 -allowaccessmodification
-
+-keep class plugin.google.maps.** { *; }
 
 ##########
 
